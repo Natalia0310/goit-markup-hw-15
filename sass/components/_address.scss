@@ -1,0 +1,32 @@
+.adress {
+    font-style: normal;
+  }
+  
+  
+  .address__mail {
+    fill: currentColor;
+    transition: background-color var(--transition-duration) cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .address {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    margin-left: auto;
+  }
+  
+  .address__link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  .address__link:last-child {
+    margin-right: 0px;
+  }
+  
+  .address__link:hover,
+  .address__link:focus {
+  color: var(--accent-color);
+  cursor: pointer;
+  }
+  

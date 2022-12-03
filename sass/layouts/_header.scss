@@ -1,0 +1,29 @@
+.header {
+    background: #ffffff;
+    border-bottom: 1px solid #ececec;
+  }
+
+  .header__container {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-group {
+    padding-left: 0;
+  }
+
+  .header__logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-right: 93px;
+  }
+  .header__logo--dark {
+    color: var(--accent-color);
+  }

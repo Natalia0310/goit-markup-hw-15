@@ -1,0 +1,16 @@
+.link {
+    display: flex;
+    align-items: center;
+    line-height: calc(16 / 14);
+    color: var(--primary-text-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    list-style: none;
+    gap: 10px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    transition: color var(--transition-duration) cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  

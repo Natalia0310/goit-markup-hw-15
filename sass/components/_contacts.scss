@@ -1,0 +1,35 @@
+
+
+
+.contacts {
+  display: block;
+  list-style: none;
+}
+.contacts__maps {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 9px;
+}
+.contacts__link {
+  font-style: normal;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 9px;
+}
+
+.contacts__item {
+    margin-bottom: 9px;
+    margin-top: 9px; }
+
+  
+ 
