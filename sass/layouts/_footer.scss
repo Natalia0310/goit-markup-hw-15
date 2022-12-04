@@ -2,49 +2,76 @@
     background-color: #2f303a;
     padding-top: 60px;
     padding-bottom: 60px;
-  }
-
-
+}
 .footer-container {
+  /*display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    width: 768px;
+    justify-content: space-between;
+    width: 738px;
+    margin: 0 auto;
+    }*/ 
+
+  @media screen and (min-width: 1200px) {
     display: flex;
     align-items: baseline;
-  }
-  .footer__address {
+    }   
+}
+.footer__address {
+ margin-bottom: 60px;
+  @media screen and (min-width: 768px) {
+   /*margin-right: 165px;*/
+  }   
+  @media screen and (min-width: 1200px) {
     margin-right: 70px;
     flex-grow: 1;
-  }
+    }   
+}  
 
 .footer__form {
+  @media screen and (min-width: 1200px) {
     display: flex;
     gap: 12px;
+    }     
 }
 .footer__button { 
-    margin: 0px auto;
-    font-weight: 700;
-    line-height: calc(30 / 16);
-    letter-spacing: 00.06em;
-    color: #ffffff;
-    background-color: var(--accent-color);
-    border-radius: 4px;
-    border: 1px solid #2196f3;
-    font-size: 16px;
-    text-align: center;
-    align-items: center;
-    padding-left: 28px;
-    padding-top: 10px;
-    padding-right: 28px;
-    padding-bottom: 10px;
-    cursor: pointer;
-    display: flex;
-    gap: 10px;
-    align-items: center;
+  margin: 0px auto;
+  font-weight: 700;
+  line-height: calc(30 / 16);
+  letter-spacing: 00.06em;
+  color: #ffffff;
+  background-color: var(--accent-color);
+  border-radius: 4px;
+  border: 1px solid #2196f3;
+  font-size: 16px;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  align-items: center; 
+  padding-left: 31px;
+  padding-top: 10px;
+  padding-right: 31px;
+  padding-bottom: 10px;
+  
+  @media screen and (min-width: 1200px) {
+   padding-left: 28px;
+   padding-right: 28px; 
+  }    
   }
-
   .footer__mail {
     font-size: 16px;
     line-height: calc(20px/16px);
-    width: 358px;
-    height: 50px;
     padding-left: 16px;
     color: rgba(255, 255, 255, 0.6);
     background-color: #2f303a;
@@ -53,39 +80,54 @@
     transition: border-color var(--transition-duration) cubic-bezier(0.4, 0, 0.2, 1);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     box-sizing: border-box; 
+    width: 450px;
+    height: 50px;
+    margin-bottom: 20px;
+    @media screen and (min-width: 1200px) {
+    width: 358px;  
+    }     
   }
-
   .footer__logo {
     display: block;
     font-family: Raleway, sans-serif;
     font-weight: 700;
-    font-size: 26px;
-    line-height: calc(31 / 26);
+    font-size: 24px;
+    line-height: calc(28 / 24);
     letter-spacing: 0.03em;
     color: var(--fond-heder);
     text-decoration: none;
     margin-bottom: 20px;
+
+    @media screen and (min-width: 1200px) {
+      font-size: 26px;
+      line-height: calc(31 / 26); 
+    }        
   }
   .footer__logo--light {
     color: var(--accent-color);
   }
   .subscription {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-left: 93px;
-    }
-    
-    .subscription__title {
-      display: block;
-      text-align: start;
-      justify-content: center;
-      font-size: 14px;
-      margin-bottom: 12px;  
-      line-height: calc(16px/14px);
-      letter-spacing: 0.03em;
-      text-transform: uppercase;
-      color: #FFFFFF;
-      font-weight: 700;
-      margin-bottom: 20px;
-    }
+
+    @media screen and (min-width: 1200px) {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      margin-left: 93px; 
+      }     
+  }
+  .subscription__title {
+    margin-top: 60px;
+    display: block;
+     text-align: start;
+     justify-content: center;
+     font-size: 14px;
+     line-height: calc(16 / 14);
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+     color: #FFFFFF;
+     font-weight: 700;
+     margin-bottom: 20px;
+    @media screen and (min-width: 1200px) {
+     
+     }         
+  }  
