@@ -1,7 +1,12 @@
 .works {
+  display: none;
+
+  @media screen and (min-width: 1200px) {
+    display: contents;
     padding-top: 0;
     padding-bottom: 94px;
-  }
+   }
+    
   .works__title {
     font-weight: 700;
     font-size: 36px;
@@ -14,7 +19,6 @@
     margin-left: auto;
     margin-right: auto;
   }
-
   .works__list {
     display: flex;
     gap: 30px;
@@ -22,13 +26,11 @@
   .works__item {
     width: 370;
   }
-  
   .works__thumb {
     position: relative;
     overflow: hidden;
     background-color: #fff;
   }
-
   .works__thumb > .works__label {
     position: absolute;
     width: 100%;
@@ -55,3 +57,4 @@
     line-height: 16px;
     letter-spacing: 0.03em;
   } 
+}

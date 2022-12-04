@@ -1,34 +1,71 @@
 .team {
     background-color: var(--secondary-white-color);
-    padding: 94px 0;
+    padding: 0;
+
+    @media screen and (min-width: 1200px) {
+      padding: 94px 0;
+     }
   }
 
 .team__title {
     font-weight: 700;
-    font-size: 36px;
-    line-height: calc(42 / 36);
+    font-size: 28px;
+    line-height: calc(33 / 28);
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
+
+    @media screen and (min-width: 1200px) {
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    margin-bottom: 50px;
+     }
+  }
+  .team__list {
+
+    @media screen and (min-width: 768px) {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      display: flex;
+      gap: 30px;
+       }
+   
   }
   .team__item {
     background-color: #ffffff;
-    width: 270;
+    width: 450px;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
       1px 4px 6px rgba(0, 0, 0, 0.16);
     border-radius: 4px;
-  }
+    margin-bottom: 30px;
 
-  .team__list {
-    display: flex;
-    gap: 30px;
+    @media screen and (min-width: 768px) {
+    width: 354px;
+    }
+  
+    @media screen and (min-width: 1200px) {
+      width: 270px;
+    }
   }
   .team__job {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 24px;
+    
+
+    @media screen and (min-width: 768px) {
+      padding-top: 30px;
+      padding-bottom: 24px;
+    }  
+    @media screen and (min-width: 1200px) {
+      padding-bottom: 30px;
+    }  
   }
 
   .team__job--name {

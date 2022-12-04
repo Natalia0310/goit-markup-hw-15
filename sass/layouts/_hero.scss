@@ -10,17 +10,21 @@
   margin: 0 auto;
   background-size: cover;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../images/Img.jpg);
+    url(../images/Img.jpg);  
 }
 .hero__title {
-  font-size: 44px;
+  font-size: 26px;
   color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  line-height: 1.36;
-
+  line-height: calc(42 / 26);
   font-weight: 900;
   margin-bottom: 30px;
+
+ @media screen and (min-width: 1200px) {
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  } 
 }
 .hero__button {
   font-weight: 700;
@@ -36,8 +40,13 @@
   align-items: center;
   text-align: center;
   cursor: pointer;
-  width: 216px;
+  width: 200px;
   height: 50px;
+
+  @media screen and (min-width: 1200px) {
+    width: 216px; 
+   }
+  
 }
 .hero__button:hover,
 .hero__button:focus {
