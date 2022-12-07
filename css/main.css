@@ -1094,15 +1094,15 @@ ul {
   display: flex;
   gap: 10px;
   align-items: center;
-  padding-left: 31px;
+  /*padding-left: 31px;
   padding-top: 10px;
   padding-right: 31px;
-  padding-bottom: 10px;
+  padding-bottom: 10px;*/
 }
 @media screen and (min-width: 1200px) {
   .footer__button {
-    padding-left: 28px;
-    padding-right: 28px;
+    padding-left: 38px;
+    padding-right: 38px;
   }
 }
 
