@@ -2,8 +2,21 @@
 .contacts {
   display: block;
   list-style: none;
+  
 }
+.contacts__item {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  margin-bottom: 9px;
+  margin-top: 9px; 
+}
+
 .contacts__maps {
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -13,8 +26,14 @@
   color: #ffffff;
   text-decoration: none;
   margin-bottom: 9px;
+
+  @media screen and (min-width: 768px) {
+   
+    }   
+ 
 }
 .contacts__link {
+  
   font-style: normal;
   text-decoration: none;
   font-size: 14px;
@@ -23,11 +42,13 @@
   font-weight: 400;
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 9px;
+
+  @media screen and (min-width: 768px) {
+   
+  }   
 }
 
-.contacts__item {
-  margin-bottom: 9px;
-  margin-top: 9px; }
+
 
   
  

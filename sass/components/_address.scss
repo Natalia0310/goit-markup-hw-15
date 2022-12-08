@@ -1,6 +1,14 @@
-.adress {
-    font-style: normal;
-  }
+.address {
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    margin-left: auto;
+    font-style: normal; 
+    }   
+  
+}
   
   
   .address__mail {
@@ -8,12 +16,7 @@
     transition: background-color var(--transition-duration) cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .address {
-    display: flex;
-    gap: 50px;
-    list-style: none;
-    margin-left: auto;
-  }
+  
   
   .address__link {
     text-decoration: none;
